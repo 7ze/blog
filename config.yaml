@@ -1,0 +1,25 @@
+baseURL: "http://shinudonney.xyz/"
+languageCode: "en-us"
+title: "Reclaim the internet"
+theme: "hugo-tania"
+
+params:
+  socialOptions:
+    github: https://github.com/7ze
+    email: shinudonney@tuta.io
+  enableFootnotes: true
+
+menu:
+  header:
+    - name: blog
+      url: "/blog/"
+    - name: projects
+      url: "/projects/"
+  footer:
+    - name: forum
+      url: "/index.xml"
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
