@@ -94,7 +94,7 @@ passphrases](https://docs.github.com/en/articles/working-with-ssh-key-passphrase
 - Enter the following on a terminal:
 
     ```sh
-        ssh -T gitgithub.com
+        ssh -T git@github.com
         # attempts to ssh onto github
     ```
 
